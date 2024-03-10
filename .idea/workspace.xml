@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5258c-b9a4-4810-9c7f-ee1cd243376b" name="Changes" comment="" />
+    <list default="true" id="7fa5258c-b9a4-4810-9c7f-ee1cd243376b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notes/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/get_all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/get_by_id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/imports.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/imports.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +25,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -29,12 +48,15 @@
   "keyToString": {
     "PHP Script.Notes.executor": "Run",
     "PHP Script.Unnamed.executor": "Run",
+    "PHP Script.add.php.executor": "Run",
     "PHP Script.connect.php.executor": "Run",
     "PHP Script.date_filter.php.executor": "Run",
     "PHP Script.index.php.executor": "Run",
+    "PHP Script.signup.php.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/notes/helpers/auth",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/notes/notes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\notes\notes" />
       <recent name="C:\xampp\htdocs\notes\helpers\auth" />
       <recent name="D:\Abdullah\projects\php\notes\auth" />
       <recent name="D:\Abdullah\projects\php\notes" />
@@ -95,7 +118,7 @@
       <workItem from="1710003324945" duration="6000" />
       <workItem from="1710003336809" duration="320000" />
       <workItem from="1710005065154" duration="90000" />
-      <workItem from="1710005161991" duration="22517000" />
+      <workItem from="1710005161991" duration="26391000" />
     </task>
     <servers />
   </component>
