@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fa5258c-b9a4-4810-9c7f-ee1cd243376b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2dFi9KUjC29s8nBA6iVrXNjF1AV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP Script.Notes.executor": "Run",
+    "PHP Script.Unnamed.executor": "Run",
+    "PHP Script.connect.php.executor": "Run",
+    "PHP Script.date_filter.php.executor": "Run",
+    "PHP Script.index.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/notes/helpers/auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\notes\helpers\auth" />
+      <recent name="D:\Abdullah\projects\php\notes\auth" />
+      <recent name="D:\Abdullah\projects\php\notes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\notes\validators" />
+      <recent name="C:\xampp\htdocs\notes\auth" />
+      <recent name="C:\xampp\htdocs\notes\auth\auth_helper" />
+      <recent name="C:\xampp\htdocs\notes\auth\auth_helpers" />
+      <recent name="C:\xampp\htdocs\notes\helpers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Notes" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fa5258c-b9a4-4810-9c7f-ee1cd243376b" name="Changes" comment="" />
+      <created>1709610075231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709610075231</updated>
+      <workItem from="1709610076443" duration="135000" />
+      <workItem from="1709610216338" duration="394000" />
+      <workItem from="1709610622472" duration="44000" />
+      <workItem from="1709985184537" duration="5408000" />
+      <workItem from="1709996697428" duration="2357000" />
+      <workItem from="1709999453418" duration="2904000" />
+      <workItem from="1710002410003" duration="900000" />
+      <workItem from="1710003324945" duration="6000" />
+      <workItem from="1710003336809" duration="320000" />
+      <workItem from="1710005065154" duration="90000" />
+      <workItem from="1710005161991" duration="22517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/xampp/htdocs/notes}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
