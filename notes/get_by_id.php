@@ -2,15 +2,15 @@
 
 require_once '../helpers/imports.php';
 
-$note = new GetNoteById();
+$note = new GetNoteById(Database::getInstance());
 $note->getNoteById();
 
 class GetNoteById {
     private PDO $db;
     public string $id;
 
-    public function __construct() {
-        $this->db = Database::getInstance();
+    public function __construct(PDO $db) {
+        $this->db = $db;
         $this->id = HelperMethods::secureRequest('id');
     }
 

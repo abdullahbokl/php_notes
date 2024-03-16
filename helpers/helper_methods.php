@@ -1,6 +1,7 @@
 <?php
 
-class HelperMethods {
+abstract class HelperMethods {
+
     static function secureRequest($string): string {
         return htmlspecialchars(strip_tags($_POST[$string]));
     }

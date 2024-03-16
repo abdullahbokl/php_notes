@@ -1,7 +1,7 @@
 <?php
 
 class DataBase {
-    // Private
+
     static private string $dsn = "mysql:host=127.0.0.1;dbname=notesapp";
     static private string $username = 'root';
     static private string $password = '';
@@ -19,7 +19,6 @@ class DataBase {
         return $db;
     }
 
-    // Public
     static public function getInstance(): PDO {
         if (empty(self::$db)) {
             self::$db = self::connect();

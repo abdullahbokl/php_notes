@@ -2,14 +2,14 @@
 
 require_once '../helpers/imports.php';
 
-$notes = new GetAllNotes();
+$notes = new GetAllNotes(Database::getInstance());
 $notes->getAllNotes();
 
 class GetAllNotes {
     private PDO $db;
 
-    public function __construct() {
-        $this->db = Database::getInstance();
+    public function __construct(PDO $db) {
+        $this->db = $db;
     }
 
     public function getAllNotes(): void {

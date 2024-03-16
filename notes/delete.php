@@ -2,15 +2,15 @@
 
 require_once '../helpers/imports.php';
 
-$note = new DeleteNote();
+$note = new DeleteNote(Database::getInstance());
 $note->deleteNote();
 
 class DeleteNote {
     private PDO $db;
     public string $id;
 
-    public function __construct() {
-        $this->db = Database::getInstance();
+    public function __construct(PDO $db) {
+        $this->db = $db;
         $this->id = HelperMethods::secureRequest('id');
     }
 

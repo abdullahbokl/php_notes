@@ -3,7 +3,7 @@
 require_once '../helpers/imports.php';
 
 
-$signup = new Signup();
+$signup = new Signup(DataBase::getInstance());
 $signup->registerUser();
 
 
@@ -11,8 +11,8 @@ class Signup {
     private PDO $db;
     private string $email, $password, $username;
 
-    public function __construct() {
-        $this->db = DataBase::getInstance();
+    public function __construct(PDO $db) {
+        $this->db = $db;
         $this->email = HelperMethods::secureRequest('email');
         $this->password = HelperMethods::secureRequest('password');
         $this->username = HelperMethods::secureRequest('username');

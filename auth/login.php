@@ -23,17 +23,21 @@ class Login {
 
         $user = $this->getUser();
 
-        $token = $this->generateToken();
+        try {
+            $token = $this->generateToken();
 
-        HelperMethods::sendResponse(
-            [
-                'username' => $user['username'],
-                'email' => $user['email'],
-                'token' => $token,
-            ],
-            Constants::LOGIN_SUCCESS,
-            200
-        );
+            HelperMethods::sendResponse(
+                [
+                    'username' => $user['username'],
+                    'email' => $user['email'],
+                    'token' => $token,
+                ],
+                Constants::LOGIN_SUCCESS,
+                200
+            );
+        } catch (Exception $e) {
+            HelperMethods::sendResponse(null, $e->getMessage(), 500);
+        }
     }
 
     private function validateCredentials(): void {
@@ -87,7 +91,3 @@ class Login {
         }
     }
 }
-
-
-
-
