@@ -4,7 +4,7 @@ require_once 'helpers/constants.php';
 require_once 'connect.php';
 require_once 'helpers/helper_methods.php';
 require_once 'helpers/route_handler.php';
-require_once 'helpers/filesUploader.php';
+require_once 'helpers/files_uploader.php';
 
 $routes = [
     // Auth routes

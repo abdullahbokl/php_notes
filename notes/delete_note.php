@@ -15,6 +15,10 @@ class DeleteNote {
 
     public function deleteNote(): void {
         try {
+            $note = $this->getCurrentNote();
+
+            HelperMethods::deleteFile("notes_images/" . $note['images'] ?? null);
+
             $query = $this->db->prepare('DELETE FROM notes WHERE id = ?');
             $query->execute([$this->id]);
             $query->fetch();
@@ -23,5 +27,14 @@ class DeleteNote {
         } catch (PDOException $e) {
             HelperMethods::sendResponse(null, $e->getMessage(), 500);
         }
+    }
+
+    /**
+     * @return array
+     */
+    public function getCurrentNote(): array {
+        $query = $this->db->prepare('SELECT images FROM notes WHERE id = ?');
+        $query->execute([$this->id]);
+        return $query->fetch();
     }
 }

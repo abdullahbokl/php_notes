@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa5258c-b9a4-4810-9c7f-ee1cd243376b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/filesUploader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/route_handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/filesUploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/files_uploader.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/helper_methods.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helper_methods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/imports.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/create_note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/delete_note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/get_all.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/get_all_notes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/get_by_id.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/get_note_by_id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/update_note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/delete_note.php" beforeDir="false" afterPath="$PROJECT_DIR$/notes/delete_note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/notes_images/65f66071b6867.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/notes_images/65f660bb02ad3photo_2024-03-02_00-10-33.jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/notes_images/65f6613648306_photo_2024-03-02_00-10-33.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +116,7 @@
       <workItem from="1710003336809" duration="320000" />
       <workItem from="1710005065154" duration="90000" />
       <workItem from="1710005161991" duration="26473000" />
-      <workItem from="1710603778713" duration="19492000" />
+      <workItem from="1710603778713" duration="22002000" />
     </task>
     <servers />
   </component>

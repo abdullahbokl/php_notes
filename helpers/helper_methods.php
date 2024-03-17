@@ -27,4 +27,12 @@ abstract class HelperMethods {
         return $extensionValidator->handle($image, $targetDir);
     }
 
+    static function deleteFile(?string $file): void {
+        if (!$file) return;
+        $file = 'uploads/' . $file;
+        if (file_exists($file)) {
+            unlink($file);
+        }
+    }
+
 }
