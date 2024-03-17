@@ -1,27 +1,28 @@
 <?php
 
-require_once '../helpers/imports.php';
+$note = new CreateNote(Database::getInstance());
+$note->createNote();
 
-$note = new AddNote(Database::getInstance());
-$note->addNote();
-
-class AddNote {
+class CreateNote {
     private PDO $db;
-    public string $title, $content, $images, $users;
+    public string $title, $content, $users;
+    public array $images;
 
     public function __construct(PDO $db) {
         $this->db = $db;
         $this->title = HelperMethods::secureRequest('title');
         $this->content = HelperMethods::secureRequest('content');
-        $this->images = HelperMethods::secureRequest('images');
         $this->users = HelperMethods::secureRequest('users');
+        $this->images = $_FILES['images'];
     }
 
-    public function addNote(): void {
+    public function createNote(): void {
         try {
+            $imagePath = HelperMethods::uploadFile($this->images, 'notes_images/');
+
 
             $query = $this->db->prepare('INSERT INTO notes (title, content, images, users) VALUES (?, ?, ?, ?)');
-            $query->execute([$this->title, $this->content, $this->images, $this->users]);
+            $query->execute([$this->title, $this->content, $imagePath, $this->users]);
             $query->fetch();
 
             $lastId = $this->db->lastInsertId();

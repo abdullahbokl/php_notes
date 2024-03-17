@@ -1,7 +1,5 @@
 <?php
 
-require_once '../helpers/imports.php';
-
 $notes = new GetAllNotes(Database::getInstance());
 $notes->getAllNotes();
 

@@ -1,11 +1,10 @@
 <?php
 
-require_once '../helpers/imports.php';
 
-$note = new DeleteNote(Database::getInstance());
-$note->deleteNote();
+$note = new GetNoteById(Database::getInstance());
+$note->getNoteById();
 
-class DeleteNote {
+class GetNoteById {
     private PDO $db;
     public string $id;
 
@@ -14,13 +13,13 @@ class DeleteNote {
         $this->id = HelperMethods::secureRequest('id');
     }
 
-    public function deleteNote(): void {
+    public function getNoteById(): void {
         try {
-            $query = $this->db->prepare('DELETE FROM notes WHERE id = ?');
+            $query = $this->db->prepare('SELECT * FROM notes WHERE id = ?');
             $query->execute([$this->id]);
-            $query->fetch();
+            $note = $query->fetch();
 
-            HelperMethods::sendResponse(null, Constants::NOTE_DELETED, 200);
+            HelperMethods::sendResponse($note, Constants::NOTE_FETCHED, 200);
         } catch (PDOException $e) {
             HelperMethods::sendResponse(null, $e->getMessage(), 500);
         }

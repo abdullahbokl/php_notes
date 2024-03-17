@@ -1,8 +1,5 @@
 <?php
 
-require_once '../helpers/imports.php';
-
-
 $login = new Login(DataBase::getInstance());
 $login->loginUser();
 

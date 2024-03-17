@@ -1,8 +1,5 @@
 <?php
 
-require_once '../helpers/imports.php';
-
-
 $signup = new Signup(DataBase::getInstance());
 $signup->registerUser();
 

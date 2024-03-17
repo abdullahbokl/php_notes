@@ -3,10 +3,10 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/auth/login.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/auth/signup.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/notes/add.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/notes/delete.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/notes/get_all.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/notes/get_by_id.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/notes/update.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/notes/create_note.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/notes/delete_note.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/notes/get_all_notes.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/notes/get_note_by_id.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/notes/update_note.php" dialect="GenericSQL" />
   </component>
 </project>
